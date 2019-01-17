@@ -1,0 +1,30 @@
+.wrapper {
+    display: inline-flex;
+    justify-content: flex-end;
+    border: 10px solid lighten(#89cff0, 15%);
+    transition: border-color .2s ease-in;
+    &:hover {
+        border: 10px solid #89cff0;
+        transition: border-color .2s ease-in;
+    }
+}
+
+canvas {
+    cursor: crosshair;
+}
+
+.row {
+    margin: 10vh 5vw;
+}
+
+.column {
+  margin: 10vh 5vw;
+}
+
+.predict {
+  margin-top: 50px;
+}
+
+.btn {
+  margin-left: 30px;
+}
